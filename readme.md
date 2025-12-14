@@ -1,43 +1,61 @@
-Day 62 Task | Cohort 2.0
-This project is my Day 52 Task, where I created a fully interactive Torch Light Effect UI using HTML, SCSS, and JavaScript.
-The screen displays a fullscreen background video, and a dynamic flashlight/torch effect follows the mouse pointer using a radial-gradient overlay.
+# 🪟 Day 62 Task | Cohort 2.0
 
-This task helped me understand CSS gradients, custom properties (--x, --y), layering video backgrounds, and creating real-time interactive visual effects with JavaScript and SCSS.
+This project is my **Day 62 Task**, where I created a **Windows-like Desktop UI** using **HTML, SCSS, and JavaScript**.
 
-📌 About the Day 52 Task
-Day 52 focused on building a realistic torch/spotlight effect on top of a video background. I learned how to:
+The interface mimics core Windows behavior such as a **taskbar with app icons**, **open/close app windows**, and a **custom right-click desktop context menu** with options like Refresh and New.
 
-Use radial-gradient() to create a flashlight-like effect
-Update CSS variables dynamically using JavaScript
-Track mouse movement to reposition gradients
-Layer <video> elements behind content using z-index
-Use SCSS nesting for clean and readable code
-Create soft, cinematic lighting effects on moving backgrounds
-✨ Task Features
-Feature	Description
-🔦 Dynamic Torch Effect	A smooth spotlight follows the mouse cursor.
-🎥 Background Video	Fullscreen autoplay video with perfect object-fit cover.
-🎨 Custom Gradient Lighting	Multi-layer radial gradient for a realistic flashlight feel.
-🖱️ Mouse Tracking	CSS variables update in real time with cursor movement.
-📐 SCSS Nesting	Clean and structured styling using nested rules.
-⚡ Smooth Performance	Lightweight effect using pure CSS + JS.
-🛠️ Technologies Used
-HTML – Structure
-SCSS – Styling and gradient effects
-JavaScript (ES6) – Mouse tracking + dynamic variables
-MP4 Video – Background animation
-VS Code – Development environment
-📖 Learning Outcome
+This task helped me understand **UI state management**, **event handling**, **context menus**, and building realistic desktop-like interactions using vanilla web technologies.
+
+## 📌 About the Day 62 Task
+
+Day 62 focused on building a **desktop-style interface** inspired by Windows OS.  
+I learned how to:
+
+- Toggle applications from a taskbar
+- Manage active window state
+- Create a custom right-click context menu
+- Prevent default browser context menu
+- Position UI elements dynamically using mouse coordinates
+- Separate structure, style, and behavior cleanly
+
+## ✨ Task Features
+
+| Feature | Description |
+|------|------------|
+| 🪟 Windows-like Taskbar | Taskbar with app icons similar to Windows |
+| 🔁 App Toggle System | Click icon to open / close apps |
+| 🖱️ Custom Right-Click Menu | Desktop context menu appears on right click |
+| 🚫 Taskbar Menu Blocking | Context menu disabled on taskbar area |
+| 📍 Dynamic Positioning | Menu appears near mouse pointer |
+| 🎨 Smooth UI Styling | Rounded corners and modern UI feel |
+| 🧼 Clean Code Structure | Organized HTML, SCSS nesting, and JS logic |
+
+## 🛠️ Technologies Used
+
+- **HTML** – Structure of desktop, taskbar, and windows  
+- **SCSS** – Styling, nesting, and UI design  
+- **JavaScript (ES6)** – App toggle logic and right-click behavior  
+- **Remix Icons** – App icons  
+- **VS Code** – Development environment  
+
+## 📖 Learning Outcome
+
 By completing this task, I learned:
 
-How CSS radial gradients work in layered UIs
-How to dynamically update CSS variables using JS
-How to create torch/spotlight visual effects
-How <video> elements behave with object-fit: cover
-How SCSS nesting improves readability
-How to combine UI effects with fluid mouse interactions
-This task strengthened my understanding of dynamic visual effects, CSS variables, layering, and real-time UI interactions.
+- How to simulate desktop UI behavior using JavaScript
+- How to toggle UI components based on state
+- How to build a custom context menu
+- How to handle mouse events like click and right-click
+- How to prevent default browser actions
+- How SCSS nesting improves code readability
+- How to build realistic UI interactions without libraries
 
-🌟 Acknowledgement
-This Day 52 task helped me explore how modern web animations and light effects are built.
-Thank you to Cohort 2.0 for providing creative and challenging projects that help me grow as a developer.
+This task strengthened my understanding of **event-driven UI**, **state management**, and **desktop-style interactions in web applications**.
+
+## 🌟 Acknowledgement
+
+This **Day 62 Task** helped me explore how desktop operating systems can be simulated on the web using pure frontend technologies.
+
+Thanks to **Cohort 2.0** for providing creative and challenging tasks that push practical learning and UI thinking.
+
+---
