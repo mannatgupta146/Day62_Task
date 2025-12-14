@@ -32,14 +32,23 @@ main #bottom-nav {
   align-items: center;
   justify-content: center;
   gap: 16px;
+  z-index: 20;
+}
+main #bottom-nav img,
+main #bottom-nav i {
+  display: block;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+main #bottom-nav img:hover,
+main #bottom-nav i:hover {
+  transform: scale(1.15);
 }
 main #bottom-nav img {
-  display: block;
   width: 32px;
   height: 32px;
   -o-object-fit: contain;
      object-fit: contain;
-  cursor: pointer;
 }
 main #bottom-nav #windows {
   width: 42px;
@@ -51,13 +60,12 @@ main #bottom-nav #search-bar {
   height: 38px;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 main #bottom-nav #search-bar i {
   position: absolute;
   left: 10px;
   top: 50%;
-  transform: translateY(-55%);
+  transform: translateY(-50%);
   color: gray;
   font-size: 16px;
 }
@@ -81,4 +89,37 @@ main #bottom-nav #telegram {
 main #bottom-nav #youtube {
   font-size: 40px;
   color: #FF0000;
+}
+
+.app-window {
+  position: absolute;
+  top: 18%;
+  left: 30%;
+  width: 360px;
+  height: 240px;
+  background: #ffffff;
+  border-radius: 10px;
+  display: none;
+  padding: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+  font-size: 18px;
+  z-index: 10;
+}
+
+#context-menu {
+  position: absolute;
+  background: #1e1e1e;
+  color: #ffffff;
+  width: 140px;
+  border-radius: 8px;
+  display: none;
+  z-index: 50;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+#context-menu p {
+  padding: 10px 16px;
+  cursor: pointer;
+}
+#context-menu p:hover {
+  background: #333333;
 }/*# sourceMappingURL=style.css.map */
