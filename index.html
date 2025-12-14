@@ -1,27 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day 62 Task | Cohort 2.0</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 62 Task | Cohort 2.0</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet"/>
 </head>
 <body>
-    <main>
-        <img src="./assets/bg.png" alt="">
-        <section id="bottom-nav">
-            <img id="windows" src="./assets/windows-icon.png" alt="">
-            <div id="search-bar">
-                <i class="ri-search-line"></i>
-                <input id="search" type="search" placeholder=" Search">
-            </div> 
-            <img id="chrome" src="./assets/chrome-icon.png" alt="">
-            <i id="whatsapp" class="ri-whatsapp-line"></i>
-            <i id="telegram" class="ri-telegram-line"></i>
-            <i id="youtube" class="ri-youtube-fill"></i>
-        </section>
-    </main>
-    <script src="script.js"></script>
+
+<main>
+  <!-- BACKGROUND -->
+  <img src="./assets/bg.png" alt="">
+
+  <!-- APP WINDOWS -->
+  <div class="app-window" id="windows-app">Windows App</div>
+  <div class="app-window" id="chrome-app">Chrome App</div>
+  <div class="app-window" id="whatsapp-app">WhatsApp App</div>
+  <div class="app-window" id="telegram-app">Telegram App</div>
+  <div class="app-window" id="youtube-app">YouTube App</div>
+
+  <!-- RIGHT CLICK CONTEXT MENU -->
+  <div id="context-menu">
+    <p id="open-app">Open</p>
+  </div>
+
+  <!-- TASKBAR -->
+  <section id="bottom-nav">
+    <img id="windows" src="./assets/windows-icon.png" alt="Windows">
+
+    <div id="search-bar">
+      <i class="ri-search-line"></i>
+      <input id="search" type="search" placeholder=" Search">
+    </div>
+
+    <img id="chrome" src="./assets/chrome-icon.png" alt="Chrome">
+    <i id="whatsapp" class="ri-whatsapp-line"></i>
+    <i id="telegram" class="ri-telegram-line"></i>
+    <i id="youtube" class="ri-youtube-fill"></i>
+  </section>
+</main>
+
+<script src="script.js"></script>
 </body>
 </html>
