@@ -13,6 +13,7 @@ main {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  font-family: sans-serif;
 }
 main img {
   width: 100%;
@@ -93,11 +94,12 @@ main #bottom-nav #youtube {
 
 .app-window {
   position: absolute;
-  top: 18%;
+  bottom: 10%;
   left: 30%;
-  width: 360px;
-  height: 240px;
-  background: #ffffff;
+  width: 760px;
+  height: 500px;
+  background: #000000;
+  color: #ffffff;
   border-radius: 10px;
   display: none;
   padding: 16px;
@@ -110,16 +112,17 @@ main #bottom-nav #youtube {
   position: absolute;
   background: #1e1e1e;
   color: #ffffff;
-  width: 140px;
+  width: 200px;
+  padding: 10px;
   border-radius: 8px;
   display: none;
   z-index: 50;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
-#context-menu p {
-  padding: 10px 16px;
+#context-menu .menu-item {
   cursor: pointer;
+  font-size: 16px;
 }
-#context-menu p:hover {
+#context-menu .menu-item:hover {
   background: #333333;
 }/*# sourceMappingURL=style.css.map */
