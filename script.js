@@ -45,3 +45,15 @@ document.querySelector("main").addEventListener("contextmenu", (e) => {
 document.addEventListener("click", () => {
   contextMenu.style.display = "none";
 });
+
+
+const refreshBtn = document.getElementById("refresh");
+const newFolderBtn = document.getElementById("new-folder");
+
+refreshBtn.addEventListener("click", () => {
+  location.reload(); // simple + effective
+});
+
+newFolderBtn.addEventListener("click", () => {
+  alert("New item clicked (can add folder later)");
+});
